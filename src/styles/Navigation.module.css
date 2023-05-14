@@ -1,0 +1,39 @@
+.lista {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100vw;
+  height: 8vh;
+  box-shadow: 0 4px 8px 0px gray;
+  position: fixed;
+  top: 0;
+  background-color: white;
+}
+
+.item {
+  width: 150px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  cursor: pointer;
+  padding: 5px 0;
+}
+
+.action {
+  width: 100vw;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.action:hover {
+  background-color: papayawhip;
+}
+
+.code {
+  font-weight: 700;
+  font-family: var(--font-mono);
+}

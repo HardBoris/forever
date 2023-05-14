@@ -1,0 +1,39 @@
+.principal {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 5rem 0 0;
+}
+
+.seccion {
+  width: 33%;
+  min-height: 50vh;
+}
+
+.perfil {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 50vh;
+  /* border: 1px solid red; */
+}
+
+.foto {
+  width: 100%;
+  min-height: 30vh;
+  background-color: aqua;
+}
+
+.nombre {
+  width: 100%;
+  min-height: 10vh;
+  background-color: blue;
+}
+
+.tarjeta {
+  width: 100%;
+  min-height: 10vh;
+  background-color: papayawhip;
+}
