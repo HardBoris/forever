@@ -14,6 +14,7 @@ const AddTodo = () => {
     });
     const res = await response.json();
     router.push("/");
+    //texto de prueba
   };
   return (
     <Fragment>
